@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visualization</title>
+  <meta name="description" content="Guides to tookits for infomation visualization, scitific visualization and learning visualization.">
+
+  <!-- URL CANONICAL -->
+  <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+  <!-- CSS Base -->
+  <link rel="stylesheet" type='text/css' media='all' href="static/css/webslides.css">
+
+  <!-- Optional - CSS SVG Icons (Font Awesome) -->
+  <link rel="stylesheet" type="text/css" media="all" href="static/css/svg-icons.css">
+
+  <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+  <!-- FACEBOOK -->
+  <meta property="og:url" content="http://your-url.com/permalink">
+  <!-- EDIT -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="WebSlides Demos">
+  <!-- EDIT -->
+  <meta property="og:description" content="Beautiful HTML presentations and websites made with WebSlides.">
+  <!-- EDIT -->
+  <meta property="og:updated_time" content="2018-05-20T18:00:00">
+  <!-- EDIT -->
+  <meta property="og:image" content="static/images/share-webslides.jpg">
+  <!-- EDIT -->
+
+  <!-- FAVICONS -->
+  <link rel="shortcut icon" sizes="16x16" href="static/images/favicons/favicon.png">
+
+  <!-- Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#333333">
+</head>
+
+<body>
+  <header role="banner">
+    <nav>
+      <ul style="list-style-type:none">
+        <li>
+          <a href="#slide=1">Home</a>
+        </li>
+        <li style="display:inline">
+          <a href="#slide=4"> Info VIS</a>
+        </li>
+        <li style="display:inline">
+          <a href="#slide=10">Tookits</a>
+        </li>
+        <li class="github" style="display:inline">
+          <a rel="external" href="https://github.com/pppppass/ToolsSeminar" title="ToolsSeminar" target="view_window">
+            <svg class="fa-github">
+              <use xlink:href="#fa-github"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="envelope" style="display:inline">
+          <a rel="external" href="mailto:xieliwenhan@gmail.com" title="@shellywhen" target="view_window">
+            <svg class="fa-envelope">
+              <use xlink:href="#fa-envelope"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <article id="webslides">
+      <!-- Slideshow? id="webslides" -->
+
+      <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+      <section class="aligncenter" id="First_Page">
+        <div class="wrap" id="Home">
+          <h1><strong>Visualization</strong></h1>
+          <p>
+            a very short guide to general visualization forms and tools
+          </p>
+          <h5>shellywhen</h5>
+          <h5>Tools Seminar 05/27/2018</h5>
+        </div>
+      </section>
+      <section class="aligncenter" id="whyVIS">
+        <div class="wrap">
+          <div class="content-center" style="text-align:left">
+            <h2>Scenario</h2>
+            <p style="font-size:2rem">Computer-based visualization systems provide visual representations of datasets designed to help people carry out tasks more effectively.</p>
+            <p style="font-size:2rem"> Visualization is suitable when there is a need to augment human capabilities rather than replace people with computational decision-making methods. </p>
+          </div>
+        </div>
+      </section>
+      <section id="classification">
+        <dic class="wrap">
+          <h3>Overview</h3>
+          <p>Generally, visualization is used to gain or show insights through data. </p>
+          <ul class="flexblock gallery">
+            <li>
+              <a href="https://github.com/d3/d3/wiki/Gallery" target="view_window">
+                <figure>
+                  <img alt="infovis " src="static/images/image/charts.png">
+                  <figcaption>
+                    <h2>Information Visualization</h2>
+                    <p>not only statistical charts; various visualization forms help to show multi-attributes, topological structure and complex relationships</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="http://vis.pku.edu.cn/wiki/doku.php?id=public_course:visclass_f17:schedule:week14" target="view_window">
+                <figure>
+                  <img alt="scivis" src="static/images/image/scivis.png">
+                  <figcaption>
+                    <h2>Scientific Visualization</h2>
+                    <p>a sub-topic of computer graphics, emphasising on realistic rederings of volumes, surfaces, illumination sources, etc.</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <figure>
+                  <img alt="newvis" src="static/images/image/tensorflow.png">
+                  <figcaption>
+                    <h2>Selected Topics</h2>
+                    <p>novel or practical visualization including learning visualization(tensorboard), dimension reduction(t-SNE, MDS, etc.), sparklines</p>
+                  </figcaption>
+                </figure>
+              </a>
+            </li>
+
+          </ul>
+        </dic>
+      </section>
+      <section class="aligncenter" id="InfoVISnavi">
+        <div class="wrap">
+          <div class="content center">
+            <h2> Classification for Information Visualization</h2>
+            <ul class="flexblock">
+              <li>
+                <a href="#slide=5">Tables</a>
+              </li>
+              <li>
+                <a href="#slide=6">High-dimensional Data</a>
+              </li>
+              <li>
+                <a href="#slide=7">Graph & Network</a>
+              </li>
+              <li>
+                <a href="#slide=8"> Time Series</a>
+              </li>
+              <li>
+                <a href="#slide=9">Text</a>
+              </li>
+              <li>
+                Geo-spacial
+              </li>
+              <li>
+                <a href="https://vega.github.io/vega/examples" target="view_window">......</a>
+              </li>
+              <li>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="fullscreen" id="Table">
+        <div class="card-50">
+          <figure>
+            <img src="static/images/image/statistic.png" alt="chart" style="height:auto;width:auto">
+            <figcaption>
+              <a href="https://cdn.mprog.nl/dataviz/slides/05-Vis_Taxonomy_Statistical_Graphs.pdf" target="view_window">
+              <svg class="fa-adjust">
+                <use xlink:href="#fa-adjust"></use>
+              </svg>
+            choose right charts
+            </a>
+            </figcaption>
+          </figure>
+          <div class="flex-content">
+            <h2><a href="#slide=4">Tables</a>
+            </h2>
+            <p>most commonly seen data type</p>
+            <p class="text-intro">
+              Statistical visualization provides an overview of the tabular data and is widely used.
+
+            </p>
+            <ul class="description">
+              <li>
+                <strong class="text-label">Software:</strong> Excel, Tableau, (even Adobe Illustrator)
+              </li>
+              <li><strong class="text-label">py Tools:</strong>matplotlib, plotly</li>
+            </ul>
+          </div>
+          <!-- end .flex-content-->
+        </div>
+      </section>
+      <section class="fullscreen" id="Highdimension">
+        <div class="card-50">
+          <figure>
+            <img src="static/images/image/mnist_tsne.png" alt="t-SNE" style="zoom:55%;height:auto;width:auto;">
+            <figcaption>
+              <a href="http://www.cs171.org/2015/assets/slides/11-graphs.pdf" target="view_window">
+                <svg class="fa-adjust">
+                  <use xlink:href="#fa-adjust"></use>
+                </svg>
+            visualize high dimensional data properly
+              </a>
+            </figcaption>
+          </figure>
+          <div class="flex-content">
+            <h2><a href="#slide=4">High-dimensional Data</a>
+            </h2>
+            <p>different visualization forms treat different scale data</p>
+            <ul class="description">
+              <li><strong>Scatterplot Matrix: </strong> each row/column is one dimension </li>
+              <li><strong>Parallel Coordinates: </strong> line up axes</li>
+              <li><strong>Radar Chart: </strong> radiate the parallel coordinates</li>
+              <li><strong> Pixel-based Displays: </strong> limit the number into a pixel</li>
+              <li><strong>Clustering: </strong> matplotlib, plotly</li>
+              <li><strong>Dimension Reduction: </strong> <a href="http://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html" target="view_window">t-SNE</a>, <a href="http://scikit-learn.org/stable/modules/generated/sklearn.manifold.MDS.html"
+                  target="view_window">MDS</a>, <a href="http://scikit-learn.org/stable/modules/decomposition.html#principal-component-analysis-pca" target="view_window">PCA</a>, LDA</li>
+            </ul>
+          </div>
+          <!-- end .flex-content-->
+        </div>
+      </section>
+      <section class="fullscreen" id="Graph">
+        <div class="card-50">
+          <figure>
+            <img style="zoom:40%" src="static/images/image/graph.png" alt="force-directed layout">
+            <figcaption>
+              <a href="http://www.cs171.org/2015/assets/slides/11-graphs.pdf" target="view_window">
+              <svg class="fa-adjust">
+                <use xlink:href="#fa-adjust"></use>
+              </svg>
+            graph layout
+            </a>
+            </figcaption>
+          </figure>
+          <div class="flex-content">
+            <h2><a href="#slide=4">Graph/Network</a>
+            </h2>
+            <p>set of relationship</p>
+            <p class="text-intro"> </p>
+            <ul class="description">
+              <li><strong>Visualization Forms: </strong> node-link diagram, matrix</li>
+              <li><strong>Trees:</strong> tree map, bubble chart, sunburst</li>
+              <li>
+                <strong>Analysis Toolkit: </strong> <a href="https://networkx.github.io/documentation/networkx-1.10/reference/introduction.html" target="view_window">networkx.py</a>
+              </li>
+              <li><strong>Layout Tools:</strong> matplotlib.py, plotly.py, TikZ, <a href="https://gephi.org/features/" target="view_window">Gephi</a></li>
+            </ul>
+          </div>
+          <!-- end .flex-content-->
+        </div>
+      </section>
+      <section class="fullscreen" id="Time">
+        <div class="card-50">
+          <figure>
+            <iframe src="http://square.github.io/cubism/demo/" style="zoom:50%"></iframe>
+            <!-- <img style="zoom:40%" src="static/images/image/graph.png" alt="force-directed layout"> -->
+            <figcaption>
+              <a href="http://vis.pku.edu.cn/course/DataVisualization_2016F/slides/%E6%96%B0%E5%AA%92%E4%BD%93_Time_16F_11_02.pdf" target="view_window">
+              <svg class="fa-adjust">
+                <use xlink:href="#fa-adjust"></use>
+              </svg>
+          Time Series
+            </a>
+            </figcaption>
+          </figure>
+          <div class="flex-content">
+            <h2><a href="#slide=4">Time Series</a>
+            </h2>
+            <p>animation/small multiples</p>
+
+            <ul class="description">
+              <li><strong>Line Graph/Bar Charts: </strong> intuitive, simplest</li>
+              <li><strong>Stacked Area Chart: </strong> commutive total & individual components of that change</li>
+              <li><strong>Gantt Chart: </strong> a horizontal bar showing the event dependencies or current work status</li>
+              <li><strong>Stream Graph: </strong> stacked area graph displayed around central horizontal axis like flowing liquid</li>
+              <li><strong>Heat Map: </strong> check your github contribution :-)</li>
+              <li><strong>Polar Area Diagram: </strong> Nightingale Rose Charts </li>
+          </div>
+          <!-- end .flex-content-->
+        </div>
+      </section>
+      <section class="fullscreen" id="Text">
+        <div class="card-30">
+          <figure>
+            <img src="static/images/image/wordle.png" alt="t-SNE" style="zoom:55%;height:auto;width:auto;">
+            <figcaption>
+              <a href="https://guides.library.duke.edu/c.php?g=289707&p=1930854" target="view_window">
+                <svg class="fa-adjust">
+                  <use xlink:href="#fa-adjust"></use>
+                </svg>
+          wordle/word cloud
+              </a>
+            </figcaption>
+          </figure>
+          <div class="flex-content">
+            <h2><a href="#slide=4">Text Visualization</a>
+            </h2>
+            <p>get an overview of the overwhelming text</p>
+            <ul class="description">
+              <li><strong>Survey for Text Visualization: </strong> <a href="http://textvis.lnu.se/" target="view_window"> boring, don't click me</a></li>
+              <li><strong> Wordle Creation: </strong> <a href="http://textvis.lnu.se/" target="view_window">a guide to make a not bad worldle</a></li>
+              <li><strong>Text Analysis: </strong> <a href=https://guides.library.duke.edu/c.php?g=289707&p=1930854 "" target="view_window">everything for text analysis</a></li>
+              <li><strong>Topic Model: </strong> just ask Google</li>
+            </ul>
+          </div>
+          <!-- end .flex-content-->
+        </div>
+      </section>
+      <section class="aligncenter" id="Tookit">
+        <div class="wrap">
+          <div class="content-center">
+            <h2>Tookits</h2>
+
+            <ul class="flexblock">
+              <li>
+                <a href="#slide=11">Plotly</a>
+              </li>
+              <li>
+                <a href="#slide=12">sparkline</a>
+              </li>
+              <li>
+                <a href="#slide=13">Tensor Board</a>
+              </li>
+              <li>
+                <a href="#slide=14">...</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+      <section id="Plotly" class="slide-top">
+        <div class="wrap">
+          <div class="content-center">
+            <a href="https://plot.ly/python/getting-started/" target="view_window" class="content-left">
+               <img src="https://tamarack-prismic.imgix.net/plotly/eb464d43-4ab4-427e-b617-482b62ba6c69_plotly-logo-white.png?w=300&auto=format"  style="zoom:100%" /></a>
+          </div>
+          <div class="content-center">
+            <div class="content-right" style="z-index:1000">
+              <ul class="description">
+                <li>
+                  look fine
+                </li>
+                <li>
+                  interactive
+                </li>
+                <li>
+                  easy to modify
+                </li>
+                <li>
+                  webGL
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Sparkline" class="slidetop">
+        <div class="wrap">
+          <div class="aligncenter">
+            <h3>Sparkline</h3>
+            <p class="#">
+              inline small chart making text clear
+            </p>
+            <ul class="description">
+              <li>
+                <strong>LaTeX package: </strong><a href="https://ctan.org/pkg/sparklines" target="view_window">sparklines</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="tensorboard" class="slide-top">
+        <div class="wrap">
+          <div class="content-left">
+            <h3>Tensor Board</h3>
+            <ul>
+              <li><a href="http://idl.cs.washington.edu/files/2018-TensorFlowGraph-VAST.pdf" target="view_window">Origin Paper</a> (very boring)</li>
+              <li><a href="https://www.tensorflow.org/programmers_guide/summaries_and_tensorboard" target="view_window">Official Guide</a></li>
+              <li><a href="https://github.com/decentralion/tf-dev-summit-tensorboard-tutorial" target="view_window">Tutorial Vedio & Code</a></li>
+            </ul>
+          </div>
+          <div class="content-right">
+            <div class="embed">
+              <pre>
+              <iframe width="640" height="360" src="https://www.youtube.com/embed/eBbEDRsCmv4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </pre>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="links" class="slide-top">
+          <div class="wrap">
+            <div class="content-center">
+              <h3>...</h3>
+              <p>If you are interested, there are some other (maybe) practical visualization tools/topics below.</p>
+              <ul class="description" style="text-align:left">
+                <li>
+                  <strong class="text-label">Software: </strong> Gephi(graph), Tableau(story telling)
+                </li>
+                  <li>
+                    <strong class="text-label">Platforms: </strong> <a href="http://reference.wolfram.com/language/guide/DataVisualization.html" target="view_window">Mathematica</a>(≈matplotlib.py), <a href="https://d3js.org/" target="view_window">D3.js</a>(web based)
+                  </li>
+                  <li>
+                    <strong class="text-label">Topics: </strong> RNN, GAN, CNN, disk space, git...
+                  </li>
+              </ul>
+            </div>
+          </div>
+      </section>
+      <section class="bg-gradient-r aligncenter" id="lastpage">
+        <div class="wrap">
+          <h2>Questions?</h2>
+
+        </div>
+        <!-- .end .wrap -->
+      </section>
+    </article>
+  </main>
+  <!-- end main -->
+
+  <!-- Required -->
+  <script src="static/js/webslides.js"></script>
+  <script>
+    window.ws = new WebSlides();
+  </script>
+
+  <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+  <script defer src="static/js/svg-icons.js"></script>
+
+</body>
+
+</html>
