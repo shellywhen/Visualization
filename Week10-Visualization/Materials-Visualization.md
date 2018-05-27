@@ -1,8 +1,6 @@
 # Materials-Visualization
 
-shellywhen Week-10@[[Tools Seminar]](https://github.com/pppppass/ToolsSeminar)
-
-[[Outline]](https://shellywhen.github.io/Visualization/Outline-Visualization.html): introduction to visualization forms and tookits
+shellywhen  20/05/2018
 
 ## Toolkits
 
@@ -26,3 +24,4 @@ shellywhen Week-10@[[Tools Seminar]](https://github.com/pppppass/ToolsSeminar)
 2. (optional) Read codes in the assignment folder.
 3. (optional) Use the MNIST tensorboard example and try to understand it.
 4. (optional) Visualize your tensorflow code if possible(or maybe try MXboard?). 
+
